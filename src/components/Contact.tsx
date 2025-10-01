@@ -1,11 +1,11 @@
 import { Button } from "@/components/ui/button";
-import { Github, Linkedin, Mail, Twitter } from "lucide-react";
+import { Github, Linkedin, Mail } from "lucide-react";
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-20 px-4 bg-gradient-subtle">
+    <section id="contact" className="py-20 px-4 bg-card">
       <div className="container mx-auto max-w-4xl text-center">
-        <h2 className="text-4xl md:text-5xl font-bold mb-6">Let's Connect</h2>
+        <h2 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">Let's Connect</h2>
         <p className="text-lg text-muted-foreground mb-12 max-w-2xl mx-auto">
           I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
           Feel free to reach out!
@@ -14,10 +14,10 @@ const Contact = () => {
         <div className="flex flex-wrap justify-center gap-4 mb-12">
           <Button
             size="lg"
-            className="bg-primary hover:bg-primary/90 shadow-glow"
+            className="bg-primary hover:bg-primary/90 text-primary-foreground"
             asChild
           >
-            <a href="mailto:your.email@example.com">
+            <a href="mailto:Ponyolucas@berkeley.edu">
               <Mail className="mr-2" size={20} />
               Send Email
             </a>
@@ -26,7 +26,7 @@ const Contact = () => {
 
         <div className="flex justify-center gap-6">
           <a
-            href="https://github.com"
+            href="https://github.com/Ponyolucas"
             target="_blank"
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-primary transition-colors"
@@ -35,7 +35,7 @@ const Contact = () => {
             <Github size={28} />
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/lucas-walsh-lately"
             target="_blank"
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-primary transition-colors"
@@ -43,20 +43,11 @@ const Contact = () => {
           >
             <Linkedin size={28} />
           </a>
-          <a
-            href="https://twitter.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-muted-foreground hover:text-primary transition-colors"
-            aria-label="Twitter"
-          >
-            <Twitter size={28} />
-          </a>
         </div>
 
         <div className="mt-16 pt-8 border-t border-border">
-          <p className="text-muted-foreground">
-            © 2024 Portfolio. Built with React, TypeScript & Tailwind CSS.
+          <p className="text-muted-foreground text-sm">
+            Ponyolucas@berkeley.edu • San Francisco Bay Area
           </p>
         </div>
       </div>

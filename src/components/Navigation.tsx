@@ -23,31 +23,25 @@ const Navigation = () => {
   return (
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? "bg-background/95 backdrop-blur-sm shadow-lg" : "bg-transparent"
+        isScrolled ? "bg-background/95 backdrop-blur-sm shadow-lg border-b border-border" : "bg-transparent"
       }`}
     >
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <button
-            onClick={() => scrollToSection("hero")}
-            className="text-xl font-bold bg-gradient-primary bg-clip-text text-transparent"
+            onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+            className="text-xl font-bold text-primary hover:text-primary/80 transition-colors"
           >
-            Portfolio
+            Lucas Walsh
           </button>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-8">
             <button
-              onClick={() => scrollToSection("projects")}
+              onClick={() => scrollToSection("work")}
               className="text-foreground hover:text-primary transition-colors"
             >
-              Projects
-            </button>
-            <button
-              onClick={() => scrollToSection("writings")}
-              className="text-foreground hover:text-primary transition-colors"
-            >
-              Writings
+              Work
             </button>
             <button
               onClick={() => scrollToSection("about")}
@@ -58,7 +52,7 @@ const Navigation = () => {
             <Button
               onClick={() => scrollToSection("contact")}
               size="sm"
-              className="bg-primary hover:bg-primary/90"
+              className="bg-primary hover:bg-primary/90 text-primary-foreground"
             >
               Contact
             </Button>
@@ -78,16 +72,10 @@ const Navigation = () => {
         {isOpen && (
           <div className="md:hidden py-4 space-y-4">
             <button
-              onClick={() => scrollToSection("projects")}
+              onClick={() => scrollToSection("work")}
               className="block w-full text-left text-foreground hover:text-primary transition-colors py-2"
             >
-              Projects
-            </button>
-            <button
-              onClick={() => scrollToSection("writings")}
-              className="block w-full text-left text-foreground hover:text-primary transition-colors py-2"
-            >
-              Writings
+              Work
             </button>
             <button
               onClick={() => scrollToSection("about")}
@@ -98,7 +86,7 @@ const Navigation = () => {
             <Button
               onClick={() => scrollToSection("contact")}
               size="sm"
-              className="w-full bg-primary hover:bg-primary/90"
+              className="w-full bg-primary hover:bg-primary/90 text-primary-foreground"
             >
               Contact
             </Button>

@@ -40,11 +40,11 @@ const Hero = () => {
             </div>
           </div>
 
-          <div className="animate-fade-in-delay">
+          <div className="animate-fade-in-delay mt-8">
             <img 
               src={heroImage} 
               alt="Lucas Walsh at UC Berkeley graduation"
-              className="rounded-lg shadow-card w-full h-auto"
+              className="rounded-lg shadow-card w-full h-auto max-w-md mx-auto"
             />
           </div>
         </div>

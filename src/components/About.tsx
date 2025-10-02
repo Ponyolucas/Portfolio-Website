@@ -23,17 +23,20 @@ const About = () => {
           </div>
 
           <div className="md:col-span-2 space-y-6 text-lg text-foreground">
-            <p className="font-medium">
-              UC Berkeley Cognitive Science graduate with experience in UX design, CRM systems, and digital strategy across pharmaceuticals, medtech, and global markets. I combine storytelling and data-driven design to improve customer experiences, from mapping web pathways at Pfizer to mentoring 400+ global founders. I especially shine in highly collaborative and social teams where I can share my passion with those who work alongside me.
+            <p className="font-semibold text-2xl">
+              Hi, I'm Lucas!
             </p>
             <p className="text-muted-foreground">
-              My perspective is rooted in a partnership between entrepreneurial and empathetic schools of thought, whether it's refining customer journeys at Pfizer through reducing clicks and centralizing search through a unified landing page, guiding early-stage founders at the Berkeley Method of Entrepreneurship Bootcamp to pitch in front of angel investors confidently, or creating and managing CRMs with hundreds of clients.
+              I'm a Cognitive Science grad from UC Berkeley who thrives at the intersection of systems and people. I bring together design, data, and storytelling to create digital experiences that are both effective and human. From refining web pathways at Pfizer to mentoring 400+ founders at the Berkeley Method of Entrepreneurship Bootcamp, I've built a toolkit around UX design, CRM systems, and web strategy—all with a focus on making technology feel intuitive and meaningful.
             </p>
             <p className="text-muted-foreground">
-              I've built skills in UX design, CRM implementation, content creation, and customer research, with work experience spanning pharmaceuticals, medtech, and international markets. I'm in my element when there's a spark of innovation in the room, whether I'm throwing ideas at the wall, helping teams find their story, and building pitch decks that stick the landing.
+              What drives me is building around empathy while keeping the bigger picture moving forward. I'm passionate about creating systems that empower people; whether that means designing CRMs that scale with hundreds of clients, shaping web strategies that prioritize the end user, or approaching AI not as a black box but as a collaborator in creativity. At my core, I'm someone who learns quickly, unites teams, and brings ideas to life through a mix of entrepreneurial drive and social instinct. That mindset has fueled projects like my award-winning essay on AI's hidden influence, my Spoon Theory–based task manager app, and my keynote talk at the 2024 Asian Leadership Conference in Seoul.
             </p>
             <p className="text-muted-foreground">
-              Outside of work, I'm a non-stop singer and an avid dreamer. You'll find me with my Berkeley a cappella group, the Trill Seekers, or typing fragments of lyrics, board game concepts, and website ideas in a Google Doc.
+              If you're looking for someone who combines strategic thinking with a collaborative spirit, that's where I shine. I love helping people find their story, mapping out systems that actually work, and bringing energy to the room when ideas need momentum.
+            </p>
+            <p className="text-muted-foreground">
+              When I'm not working, you'll probably find me singing with my Berkeley a cappella group, the Trill Seekers, or scribbling down fragments of lyrics, board game concepts, and product ideas in Google Docs.
             </p>
           </div>
         </div>

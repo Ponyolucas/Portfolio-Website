@@ -42,7 +42,7 @@ const Hero = () => {
                 variant="outline"
                 asChild
               >
-                <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+                <a href="https://docs.google.com/document/d/1_JHQobHqgsNYFTWWYNfZpf51lg-qpv_DF1UuamckwzQ/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
                   <FileText className="mr-2" size={20} />
                   Resume
                 </a>

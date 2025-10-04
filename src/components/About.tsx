@@ -27,16 +27,16 @@ const About = () => {
               Hi, I'm Lucas!
             </p>
             <p className="text-muted-foreground">
-              I'm a Cognitive Science grad from UC Berkeley who thrives at the intersection of systems and people. I bring together design, data, and storytelling to create digital experiences that are both effective and human. From refining web pathways at Pfizer to mentoring 400+ founders at the Berkeley Method of Entrepreneurship Bootcamp, I've built a toolkit around UX design, CRM systems, and web strategy—all with a focus on making technology feel intuitive and meaningful.
+              I'm a recent Cognitive Science grad with certificates in both entrepreneurship and changemaking from UC Berkeley. I combine intuitive and effective design, data, and storytelling to craft digital experiences that build bridges between systems and the people that utilize them. From optimizing web pathways at Pfizer to mentoring 400+ founders for the Berkeley Method of Entrepreneurship Bootcamp, I've experimented with and developed mastery in UX design, CRM systems, and web strategy. This arsenal emboldens me to help bridge the gap between technical complexity and human needs.
             </p>
             <p className="text-muted-foreground">
-              What drives me is building around empathy while keeping the bigger picture moving forward. I'm passionate about creating systems that empower people; whether that means designing CRMs that scale with hundreds of clients, shaping web strategies that prioritize the end user, or approaching AI not as a black box but as a collaborator in creativity. At my core, I'm someone who learns quickly, unites teams, and brings ideas to life through a mix of entrepreneurial drive and social instinct. That mindset has fueled projects like my award-winning essay on AI's hidden influence, my Spoon Theory–based task manager app, and my keynote talk at the 2024 Asian Leadership Conference in Seoul.
+              The niche I aim for when designing lies in the sweet spot between entrepreneurial and empathetic. I strive to build systems that empower the people utilizing them; whether that means organizing CRMs that scale with hundreds of clients, shaping web strategies that prioritize the end user, or approaching AI not as a black box but as a collaborator to challenge and guide. At my core, I'm someone who strives to learn quickly, unite teams, and bring ideas to life through a mix of entrepreneurial drive and social instinct. This mindset has fueled projects like my award-winning essay on AI's hidden influence, a Spoon Theory–based task manager app designed for the needs of those with chronic disabilities, and the keynote talk I gave at the 2024 Asian Leadership Conference in Seoul. You can find details about those achievements and more down below!
             </p>
             <p className="text-muted-foreground">
-              If you're looking for someone who combines strategic thinking with a collaborative spirit, that's where I shine. I love helping people find their story, mapping out systems that actually work, and bringing energy to the room when ideas need momentum.
+              If you're looking for someone who combines strategic problem-solving with a collaborative spirit, I'm your person. I thrive when helping people find their story, mapping out systems that actually work, and bringing energy to the room when ideas need momentum.
             </p>
             <p className="text-muted-foreground">
-              When I'm not working, you'll probably find me singing with my Berkeley a cappella group, the Trill Seekers, or scribbling down fragments of lyrics, board game concepts, and product ideas in Google Docs.
+              When I'm not working, I'm probably in rehearsal, singing with my Berkeley a cappella group the Trill Seekers, or filling Google Docs with scraps of song lyrics, board game ideas, and product concepts.
             </p>
           </div>
         </div>

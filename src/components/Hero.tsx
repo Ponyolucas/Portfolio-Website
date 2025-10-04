@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowDown } from "lucide-react";
+import { ArrowDown, FileText } from "lucide-react";
 import heroImage from "@/assets/hero-berkeley-grad.jpg";
 
 const Hero = () => {
@@ -37,6 +37,16 @@ const Hero = () => {
               >
                 Get in Touch
               </Button>
+              <Button 
+                size="lg" 
+                variant="outline"
+                asChild
+              >
+                <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+                  <FileText className="mr-2" size={20} />
+                  Resume
+                </a>
+              </Button>
             </div>
           </div>
 
@@ -52,7 +62,7 @@ const Hero = () => {
 
       <button
         onClick={() => scrollToSection("work")}
-        className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce text-primary"
+        className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce bg-card/80 hover:bg-card rounded-full p-4 shadow-lg text-primary transition-colors"
         aria-label="Scroll to work section"
       >
         <ArrowDown size={32} />

@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Github, Linkedin, Mail } from "lucide-react";
+import { Github, Linkedin, Mail, FileText } from "lucide-react";
 
 const Contact = () => {
   return (
@@ -17,9 +17,19 @@ const Contact = () => {
             className="bg-primary hover:bg-primary/90 text-primary-foreground"
             asChild
           >
-            <a href="mailto:Ponyolucas@berkeley.edu">
+            <a href="mailto:Ponyolucas@berkeley.com">
               <Mail className="mr-2" size={20} />
               Send Email
+            </a>
+          </Button>
+          <Button
+            size="lg"
+            variant="secondary"
+            asChild
+          >
+            <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+              <FileText className="mr-2" size={20} />
+              View Resume
             </a>
           </Button>
         </div>
@@ -47,7 +57,7 @@ const Contact = () => {
 
         <div className="mt-16 pt-8 border-t border-border">
           <p className="text-muted-foreground text-sm">
-            Ponyolucas@berkeley.edu • San Francisco Bay Area
+            Ponyolucas@berkeley.com • San Francisco Bay Area
           </p>
         </div>
       </div>

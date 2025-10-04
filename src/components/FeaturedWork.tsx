@@ -10,6 +10,15 @@ import berkeleyBootcampImage from "@/assets/berkeley-bootcamp.png";
 
 const works = [
   {
+    title: "Berkeley Students Take the Global Stage at Asian Leadership Conference",
+    description: "Featured keynote speaker at the 2024 Asian Leadership Conference in Seoul, South Korea, presenting on innovation and entrepreneurship to an international audience of leaders and changemakers.",
+    image: alcKeynoteImage,
+    tags: ["Public Speaking", "Leadership", "International", "Conference"],
+    links: [
+      { label: "Read More", url: "https://scet.berkeley.edu/scet-takes-the-global-stage-at-asian-leadership-conference/", icon: ExternalLink }
+    ]
+  },
+  {
     title: "Spoonful - Task Management App",
     description: "An innovative task manager that gamifies productivity using a 'spoon theory' approach. Users manage their energy levels alongside their tasks, creating a more mindful approach to daily planning.",
     image: spoonfulImage,
@@ -26,15 +35,6 @@ const works = [
     tags: ["Writing", "AI Ethics", "Technology", "Award-Winning"],
     links: [
       { label: "Read Article", url: "https://artofwriting.berkeley.edu/writing/i-live-in-your-pocket-now-the-hidden-influences-of-ai/", icon: ExternalLink }
-    ]
-  },
-  {
-    title: "Berkeley Students Take the Global Stage at Asian Leadership Conference",
-    description: "Featured keynote speaker at the 2024 Asian Leadership Conference in Seoul, South Korea, presenting on innovation and entrepreneurship to an international audience of leaders and changemakers.",
-    image: alcKeynoteImage,
-    tags: ["Public Speaking", "Leadership", "International", "Conference"],
-    links: [
-      { label: "Read More", url: "https://scet.berkeley.edu/scet-takes-the-global-stage-at-asian-leadership-conference/", icon: ExternalLink }
     ]
   },
   {

@@ -17,7 +17,7 @@ const Contact = () => {
             className="bg-primary hover:bg-primary/90 text-primary-foreground"
             asChild
           >
-            <a href="mailto:Ponyolucas@berkeley.com">
+            <a href="mailto:ponyolucas@berkeley.edu">
               <Mail className="mr-2" size={20} />
               Send Email
             </a>
@@ -57,7 +57,7 @@ const Contact = () => {
 
         <div className="mt-16 pt-8 border-t border-border">
           <p className="text-muted-foreground text-sm">
-            Ponyolucas@berkeley.com • San Francisco Bay Area
+            ponyolucas@berkeley.edu • San Francisco Bay Area
           </p>
         </div>
       </div>

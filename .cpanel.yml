@@ -1,8 +1,16 @@
 deployment:
   tasks:
-    - cd /home/lucaswalsh/repositories/Portfolio-Website
-    - /bin/npm install
-    - /bin/npm run build
-    - export DEPLOYPATH=/home/lucaswalsh/public_html/
+    # Define the path where your website files should go
+    - export DEPLOYPATH=/home/lucaswalsh/public_html
+
+    # Install dependencies
+    - npm install
+
+    # Build your Vite project
+    - npm run build
+
+    # Clear the existing site
     - /bin/rm -rf $DEPLOYPATH/*
+
+    # Copy the new build output
     - /bin/cp -R dist/* $DEPLOYPATH
